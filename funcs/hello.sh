@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-function hello {
+hello() {
 	echo "Hello"
 }
 
