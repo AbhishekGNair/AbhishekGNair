@@ -10,7 +10,7 @@ Three of my favorite books are:
 
 - *The Psychology of Money* by Morgan Hausel
 - *The Happiness Trap* by Dr Russ Harris
-- *The Obstacle is the Way* by Ryan Holiday
+- *The Daily Stoic* by Ryan Holiday
 
 ### Places
 
