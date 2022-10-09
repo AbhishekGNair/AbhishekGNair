@@ -4,8 +4,9 @@ function even_or_odd {
 	echo "$1 % 2" | bc
 }
 
-function nevens {
-	local no_of_evens=0
+# no_of_evens=0
+nevens() {
+	no_of_evens=0
 
 	for i in $@
 	do
@@ -19,6 +20,7 @@ function nevens {
 	echo $no_of_evens
 }
 
-function howodd {
-	echo $(nevens)
-}
+echo "The number of evens in the set: $(nevens $@)"
+echo "Total number of elements in the set: $#"
+echo "`nevens $@` / $#" | bc -l
+

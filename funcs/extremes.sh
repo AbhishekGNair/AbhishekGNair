@@ -1,10 +1,21 @@
 #!/usr/bin/bash
-IFS=';' read -ra vector <"$file"
-	min=${vector[0]}
-	max=${vector[0]}
-	for i in "${vector[@]}"
+
+extremes() {
+	max=$1
+	min=$1
+
+	for i in $@
 	do
-		(( i < min )) && min=$i
-		(( i > max )) && max=$i
+		if [[ $i -gt $max ]]
+		then
+			let max=$i
+		fi
+		if [[ $i -lt $min ]]
+		then
+			let min=$i
+		fi
 	done
-	echo "Min is $min, Max is $max"
+
+	echo "Max: $max"
+	echo "Min: $min"
+}
