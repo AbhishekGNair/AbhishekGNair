@@ -9,8 +9,8 @@ I live in the city of Bangalore, in the state of Karnataka, in India
 Three of my favorite books are:
 
 - *The Psychology of Money* by Morgan Hausel
-- *Tuesdays with Morrie* by Mitch Albom
-- *Blink* by Malcolm Gladwell
+- *The Happiness Trap* by Dr Russ Harris
+- *Stillness is the Key* by Ryan Holiday
 
 ### Places
 
